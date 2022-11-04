@@ -130,15 +130,16 @@ margin-top: 50px;
         margin-top: 20px;
     }
 
-   
-
-
     @media screen and (max-width: 768px) {
-        nav ul li {
-        display: flex;
-        align-items: flex-start;
-        }
+     .nav ul li,
+     img {
+       display: flex;
+       flex-direction: column;
+     }   
     }
+    
+
+
     
   
 
